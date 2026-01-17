@@ -78,13 +78,16 @@ git clone https://github.com/AfaqAnwar/.configs.git
 
 Move or symlink the configuration files to their respective locations:
 
-- `fish/` → `~/.config/fish/`
-- `nvim/` → `~/.config/nvim/`
-- `tmux/` → `~/.config/tmux/`
-- `karabiner/` → `~/.config/karabiner/`
-- `.tmux.conf` → `~/.tmux.conf`
+- `config` → Edit your Ghostty config (⌘ + ,) and paste the contents
 - `bin/ghostty-tmux.sh` → `~/.local/bin/ghostty-tmux.sh`
+- `fish/` → `~/.config/fish/`
+- `tmux/` → `~/.config/tmux/`
+- `.tmux.conf` → `~/.tmux.conf`
+- `nvim/` → `~/.config/nvim/`
+- `karabiner/` → `~/.config/karabiner/`
 - `Afaq.code-profile` → Your VS Code profiles directory
+
+**Note**: The Ghostty config uses the `ghostty-tmux.sh` script to automatically start a tmux session upon launch and requires the [IBMPlexMono](https://fonts.google.com/selection) font family to be installed.
 
 ## Keybindings
 
