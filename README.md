@@ -17,7 +17,7 @@ This repository contains configuration files for:
 
 ### Install Tools
 
-Install the required tools using Homebrew:
+Install the required tools using [Homebrew](https://brew.sh/):
 
 ```
 brew install fish nvim tmux ghostty tmux-mem-cpu-load
