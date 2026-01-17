@@ -10,7 +10,7 @@ quick-terminal-space-behavior = remain
 clipboard-read = allow
 clipboard-write = allow
 
-window-vsync = false
+window-vsync = true
 window-padding-x = 4
 
 # ================================
