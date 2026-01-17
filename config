@@ -1,46 +1,22 @@
-# ================================
-# Core behavior
-# ================================
 confirm-close-surface = false
 shell-integration = fish
-
-quick-terminal-position = center
-quick-terminal-space-behavior = remain
-
 clipboard-read = allow
 clipboard-write = allow
-
 window-vsync = true
 window-padding-x = 4
-
-# ================================
-# Appearance
-# ================================
 window-theme = light
-
 background-opacity = 0.85
 background-blur = 16
-
-# ================================
-# Catppuccin Frappe (matches tmux)
-# ================================
 theme = Catppuccin Frappe
-
 background = #000000
 foreground = #c6d0f5
-
 selection-background = #51576d
 selection-foreground = #c6d0f5
-
 cursor-color = #f2d5cf
 cursor-text = #303446
 cursor-opacity = 0.9
 cursor-style = block_hollow
 cursor-style-blink = true
-
-# ================================
-# ANSI color palette (Frappe)
-# ================================
 palette = 0=#51576d
 palette = 1=#e78284
 palette = 2=#a6d189
@@ -57,23 +33,11 @@ palette = 12=#85c1dc
 palette = 13=#ca9ee6
 palette = 14=#99d1db
 palette = 15=#c6d0f5
-
-# ================================
-# Fonts
-# ================================
 font-family = IBMPlexMono
 font-family-bold = IBMPlexMono-Bold
 font-family-italic = IBMPlexMono-Italic
 font-family-bold-italic = IBMPlexMono-BoldItalic
-
-# ================================
-# macOS icon colors
-# ================================
 macos-icon-ghost-color = #FFFFFF
 macos-icon-screen-color = #303446
-
-# ================================
-# Shell Integration
-# ================================
 command = ~/.local/bin/ghostty-tmux.sh
 shell-integration = fish
