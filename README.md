@@ -6,7 +6,7 @@ My personal configuration files for various development tools and applications.
 
 This repository contains configuration files for:
 
-- **Fish Shell** - Shell configuration and custom functions
+- **Fish** - Shell configuration and custom functions
 - **Neovim** - Editor settings and plugins
 - **tmux** - Terminal multiplexer configuration
 - **Karabiner** - macOS keyboard customization
